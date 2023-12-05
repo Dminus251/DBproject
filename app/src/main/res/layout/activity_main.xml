@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "문화 축제 정보 찾기"
+        android:fontFamily="@font/bmjua"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+
+        <Button
+            android:id="@+id/aroundMe"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="내 주변 문화 축제 검색"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            android:textSize="25dp"
+            android:background="@drawable/button_background" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="30dp">
+
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="원하는 문화 축제 검색"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/bmjua"
+            android:textSize="25dp"
+            android:background="@drawable/button_background" />
+
+
+    </LinearLayout>
+</LinearLayout>
